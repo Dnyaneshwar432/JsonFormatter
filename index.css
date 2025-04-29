@@ -1,0 +1,39 @@
+body {
+    background-color: #daead5; /* Light faint color */
+    overflow-x: hidden;
+}
+
+h2 {
+    color: #4a4a4a; /* Darker color for the title */
+    text-align: center;
+}
+
+
+.maindiv {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eecbcb; /* White background for the main div */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+textarea, pre {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+}
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+#output {
+    background-color: #f4f4f4;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+}
