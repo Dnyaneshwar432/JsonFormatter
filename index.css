@@ -22,7 +22,7 @@ h2 {
 textarea, pre {
     width: 100%;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Courier New', monospace;
     font-size: 16px;
 }
 button {
@@ -33,7 +33,7 @@ button {
 #output {
     background-color: #f4f4f4;
     padding: 10px;
-    white-space: pre-wrap;
+    white-space: pre;
     word-wrap: break-word;
     border: 1px solid #ccc;
 }
